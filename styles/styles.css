@@ -1,5 +1,10 @@
 .container {
-    width: 800px;
-    background-color: gray;
-    margin: auto;
+  width: 800px;
+  background-color: gray;
+  margin: auto;
+}
+
+.cv-photo {
+  border-radius: 50%;
+  background-color: green;
 }
