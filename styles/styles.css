@@ -29,6 +29,15 @@ figure h1 {
   border-radius: 50%;
 }
 
+.about-me {
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.about-me p {
+  text-align: justify;
+}
+
 main {
   display: flex;
   margin-bottom: 40px;
