@@ -1,1 +1,1 @@
-https://elMP.github.io/rsschool-cv/cv
+https://elMP.github.io/rsschool-cv/
