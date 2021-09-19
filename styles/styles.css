@@ -1,0 +1,80 @@
+body {
+  background-color: palegreen;
+  color: darkgreen;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+figure h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.cv-photo {
+  border-radius: 50%;
+}
+
+.about-me {
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.about-me p {
+  text-align: justify;
+}
+
+main {
+  display: flex;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+.left-column {
+  background-color: darkgreen;
+  color: mintcream;
+  padding: 20px;
+}
+
+.right-column {
+  background-color: mintcream;
+  color: darkgreen;
+  padding: 20px;
+}
+section h2 {
+  font-size: 16px;
+}
+
+main li {
+  margin-bottom: 10px;
+}
+
+.english-level {
+  margin-left: 40px;
+}
+
+.projects span {
+  font-style: italic;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
