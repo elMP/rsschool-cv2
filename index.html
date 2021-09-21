@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Elena Pokrovskaia - CV</title>
   <link rel="stylesheet" href="styles/styles.css" />
+  <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css" rel="stylesheet">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
 <body>
@@ -126,27 +129,29 @@
                 </a>
             </ul>
           </section>
-          <section id="code">
+          <section id="code" class="code">
             <h2>Code example</h2>
             <p>Here is my solution the kata <a href="https://www.codewars.com/kata/57e5279b7cf1aea5cf000359">Fun with
                 trees: max sum</a> from <a href="https://www.codewars.com">Codewars's site</a></p>
-            <pre>function maxSum(root) {
-                        if (root === null)
-                        return 0;
+            <pre><code>
+function maxSum(root) {
+  if (root === null)
+    return 0;
+  
+  let l = 0, r = 0;
+  if (!root.left && !root.right)
+    return root.value;
                         
-                        let l = 0, r = 0;
-                        if (!root.left && !root.right)
-                        return root.value;
+  if (root.left)
+    l = root.value + maxSum(root.left);
+  if (root.right)
+    r = root.value + maxSum(root.right);
                         
-                        if (root.left)
-                        l = root.value + maxSum(root.left);
-                        if (root.right)
-                        r = root.value + maxSum(root.right);
-                        
-                        if (l > r)
-                        return l
-                        return r; // TODO: implementation
-                        }</pre>
+  if (l > r)
+    return l
+  return r; 
+}
+            </code></pre>
           </section>
           <section id="education">
             <h2>Education</h2>
