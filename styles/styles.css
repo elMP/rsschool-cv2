@@ -113,6 +113,10 @@ main {
   padding: 20px;
 }
 
+.cv-photo {
+  border-radius: 50%;
+}
+
 .about-me {
   margin-top: 20px;
   margin-left: 20px;
@@ -270,9 +274,7 @@ figure h1 {
   text-align: center;
 }
 
-.cv-photo {
-  border-radius: 50%;
-}
+
 
 .about-me {
   padding-left: 40px;
