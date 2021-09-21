@@ -21,6 +21,16 @@ ul {
   padding-left: 20px;
 }
 
+.ancor{
+	position: relative;
+}
+
+.ancor_link{
+		position: absolute;
+		display: block;
+		top: -100px;
+  }
+  
 .header {
   position: fixed;
   width: 100%;
@@ -192,6 +202,10 @@ footer a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .ancor_link.ancor_about{
+    top: -200px;
   }
 }
 
